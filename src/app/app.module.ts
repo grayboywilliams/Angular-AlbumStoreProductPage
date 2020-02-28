@@ -20,7 +20,6 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
     BrowserModule,
     FormsModule,
     HttpModule,
-    ProductService
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
