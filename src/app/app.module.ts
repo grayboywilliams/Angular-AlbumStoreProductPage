@@ -14,7 +14,7 @@ import { identifierModuleUrl } from '@angular/compiler';
 
 const appRoutes: Routes = [
   { path: 'products', component: ProductListComponent },
-  { path: 'product/id', component: ProductPageComponent },
+  { path: 'product/:id', component: ProductPageComponent },
   { path: '', redirectTo: 'products', pathMatch: 'full' }
 ];
 
